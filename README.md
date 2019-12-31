@@ -23,5 +23,5 @@ The load order contained in your `__resource.lua` should be as follows -
 
 
 ### Resource management
-Folders with names encapsulated with `[]` will be processed as parent folders, which means resources can be sorted directly into these and referenced as if they were directly in `resources/` e.g. `resources/[missions]/myMission` is referenced the same as if it was in `resources/myMission`. The end result that should be in your `server.cfg` should be listed as `start myMission`.
+Folders with names encapsulated with `[]` will be processed as parent folders, which means resources can be sorted directly into these and referenced as if they were directly in `resources/` e.g. `resources/[missions]/myMission` is referenced the same as if it was in `resources/myMission` (in this case you would append `start myMission`).
 ![alt text](https://i.imgur.com/s4vhiUC.png "")
